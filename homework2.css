@@ -1,0 +1,38 @@
+/*gobal*/
+.body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.h1 {
+    color: #783838;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}

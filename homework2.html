@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./homework2.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+
+    <h1>Temperature Converter</h1>
+
+    <label for="startTemperature">Enter starting temperature:</label>
+    <input type="number" id="startTemperature" placeholder="Enter start temperature" step="0.1">
+
+    <label for="endTemperature">Enter ending temperature:</label>
+    <input type="number" id="endTemperature" placeholder="Enter end temperature" step="0.1">
+
+    <label for="temperatureScale">Select scale (C or F):</label>
+    <input type="text" id="temperatureScale" placeholder="Enter C or F">
+
+    <button onclick="convertAndDisplay()">Convert and Display</button>
+
+    <div id="result"></div>
+
+    <script src="./styles/homework2.js"></script>
+</body>
+</html>
